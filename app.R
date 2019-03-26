@@ -3,9 +3,9 @@ library(maps)
 library(mapproj)
 
 # Import all of the data
-ClimStressors <- read.csv("data/RegionStressors.csv")  
-HumanStressors <- read.csv("data/HumanStressors.csv")
-LocalImpacts <- read.csv("data/LocalImpacts.csv")
+ClimStressors <- read.csv("RegionStressors.csv")  
+HumanStressors <- read.csv("HumanStressors.csv")
+LocalImpacts <- read.csv("LocalImpacts.csv")
 
 # Define UI for dataset viewer app ----
 ui <- fluidPage(
